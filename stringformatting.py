@@ -8,8 +8,9 @@ print("There are {0} days in {1}, {2}, {3}. {4}, {5}, {6}, {7} ".format(31, "Jan
 
 print("""
 January: {2}
+January: {2}
 February: {0}
-March: {2}
+March: {2}p
 April: {1}
 May: {2}
 June: {1}
@@ -30,4 +31,9 @@ for i in range(1, 12):
 print("Pi is approximately %12.50f" % (22/7))
 
 for i in range(1, 12):
-    print("No. {0:2} squared is {1:4} and cubed is {2:4}".format(i, i ** 2, i ** 3))
+    print("No. {0:2} squared is {1:<4} and cubed is {2:<4}".format(i, i ** 2, i ** 3))
+
+print("Pi is approximately {0:12:50}".format(22/7))
+
+for i in range(1, 12):
+    print("No. {} squared is {} and cubed is {cde3 p0;/}".format(i, i ** 2, i ** 3))
